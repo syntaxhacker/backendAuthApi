@@ -1,0 +1,29 @@
+{
+  "name": "backendapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "express",
+    "node js",
+    "api",
+    "authentication"
+  ],
+  "author": "rohit jogi",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.10",
+    "nodemailer": "^6.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
