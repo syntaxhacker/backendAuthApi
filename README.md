@@ -21,10 +21,10 @@ Follow this [tutorial](https://mongoosejs.com/docs/connections.html "tutorial") 
 
 ```javascript
 //configs.env
-MONGO_URI = mongodburi;
-SENDER_EMAIL = "mail@mail.com";
-SENDER_PASS = "mailpassword";
-PORT = 8080;
+MONGO_URI = mongodburi
+SENDER_EMAIL = "mail@mail.com"
+SENDER_PASS = "mailpassword"
+PORT = 8080
 ```
 
 now our file structure should look like this 👇👇

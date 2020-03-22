@@ -2,7 +2,7 @@ const router = require("express").Router();
 let User = require("../models/user.model");
 const bcrypt = require("bcrypt");
 const nodemailer = require("nodemailer");
-require("dotenv").config({ path: "../config/confis.env" });
+require("dotenv").config({ path: "../config/configs.env" });
 // check if valid user
 
 const isUser = async (req, res) => {
